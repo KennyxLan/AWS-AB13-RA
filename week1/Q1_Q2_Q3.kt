@@ -1,4 +1,4 @@
-// Q1:
+// Q1's Answer:
 
     val id = 9527                  // (a) Correct.
     // var number : Int = 5.6      // (b) INCORRECT. "The floating-point literal does not conform to the expected type Int"
@@ -18,4 +18,18 @@
 
 
 
-// Q2:
+// Q2's Answer:
+
+    (c) "Your grace."
+    // Reason:
+    Because the length of message is 39, which is in the range 1..39 , the corresponding statement
+        println("Your grace.")
+    is executed.
+
+
+
+// Q3's Answer:
+
+    
+
+
