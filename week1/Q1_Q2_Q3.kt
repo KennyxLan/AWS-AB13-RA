@@ -1,3 +1,5 @@
+// The file extension (.kt) is added for syntax highlighting.
+
 // Q1's Answer:
 
     val id = 9527                  // (a) Correct.
