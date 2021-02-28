@@ -1,4 +1,4 @@
-// The file extension (.kt) is added for syntax highlighting.
+// The file extension (.kt) is added only for syntax highlighting.
 
 // Q1's Answer:
 
