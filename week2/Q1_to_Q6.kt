@@ -1,8 +1,8 @@
 
-// Q1. What is Inheritance? Try to explain in Mandarin.
+//// Q1. What is Inheritance? Try to explain in Mandarin.
 繼承。假設類別B繼承類別A，類別A稱為基礎類別(base class)，類別B稱為衍生類別(derived class)。類別B將擁有類別A的屬性(data members)及函數(member functions)。
-例如：
 
+// sample code:
 fun main(){
 
     var lion = Animal("Lion King")
@@ -24,11 +24,11 @@ class Dog(name: String): Animal(name){  // class Dog is a derived class
     fun bark(){
         println("$name barks")
     }
-}
+} // end of sample code
 
 
 
-// Q2. How to 'split' a string in Android? Explain your understanding, and even better to attach some sample code.
+//// Q2. How to 'split' a string in Android? Explain your understanding, and even better to attach some sample code.
 Use the function
     fun CharSequence.split(
         vararg delimiters: String,
@@ -36,7 +36,7 @@ Use the function
         limit: Int = 0
     ): List<String>
  
-// sample code
+// sample code:
 fun main(){
 
     var str: String = "It is    sunny today. Let's go to school and play basketball!"
@@ -50,4 +50,4 @@ fun main(){
 
 
 
-//Q3. 
+//// Q3. 
