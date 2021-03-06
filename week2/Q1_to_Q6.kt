@@ -51,3 +51,10 @@ fun main(){
 
 
 //// Q3. 
+
+//// Q4. What's the difference between ArrayList and LinkedList? Try to explain in Mandarin.
+ArrayList 與 LinkedList 皆屬於線性資料結構。
+ArrayList 類似Vector，是透過array實作；當array空間已滿且需要擴大時，需先建立一個新的array，再將資料從舊array搬移到新array，較花時間。 --> 時間複雜度 O(n)
+LinkedList 是透過doubly linked list實作；在已知欲新增或刪除的node位置(pointer)時，可立即新增或刪除node，不需一一搬移資料。 --> 時間複雜度 O(1)
+(ArrayList、LinkedList 在不同的operation下可能有不同的時間複雜度，須視情況採用合適的資料結構。)
+
