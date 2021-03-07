@@ -42,7 +42,7 @@ fun main(){
     var str: String = "It is    sunny today. Let's go to school and play basketball!"
     val delim: String = " "
     var newString = str.split(delim)  // split() returns a List of Strings.  Two consecutive delimiters will result in an empty String.
-    println(str) // str is unchanged
+    println(str) // str is not changed
     println(newString) // println() can print a List of Strings
     println(newString.size)
 
