@@ -1,3 +1,4 @@
+/* The file extension (.kt) is added for syntax highlighting and readability. */
 
 //// Q1. What is Inheritance? Try to explain in Mandarin.
 繼承。假設類別B繼承類別A，類別A稱為基礎類別(base class)，類別B稱為衍生類別(derived class)。類別B將擁有類別A的屬性(data members)及函數(member functions)。
@@ -28,6 +29,8 @@ class Dog(name: String): Animal(name){  // class Dog is a derived class
 
 
 
+
+
 //// Q2. How to 'split' a string in Android? Explain your understanding, and even better to attach some sample code.
 Use the function
     fun CharSequence.split(
@@ -50,7 +53,11 @@ fun main(){
 
 
 
-//// Q3. 
+
+
+//// Q3. What kind of key-value pair collection do we use in Android? Attach a sample code that uses a for-loop to print each key-value pair.
+
+
 
 
 
@@ -62,6 +69,9 @@ LinkedList 是透過doubly linked list實作；在已知欲新增或刪除的nod
 (Reference:  https://medium.com/zero-equals-false/arraylist-vs-linkedlist-vs-vector-22e1721a66b0  )
 
 
+ 
+ 
+ 
 //// Q5. What are Value Type variables? List out the Value Type variables yout know.
 In contrast to Reference Type variables which hold references (to objects), Value Type variables are ones that hold values.
 Value Type varibels: Byte, Short, Int, Long, Float, Double
@@ -97,6 +107,9 @@ fun main(){
 } // end of sample code B
 
 (Reference:  https://stackoverflow.com/questions/44515031/is-kotlin-pass-by-value-or-pass-by-reference  )
+ 
+ 
+ 
  
  
 //// Q6. What's the maximum value of Int? If you want to represent integers larger than the limit, what should you do instead of using Int variables?
