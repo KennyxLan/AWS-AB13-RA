@@ -10,3 +10,11 @@ The benefits of encapsulation includes:
 
 
 //// 2. Try to explain what is enum and why we use them.
+`enum` is a collection of a number of constants(objects). We use `enum` in situations where only a certain number of possible values are allowed for a variable.
+
+
+
+
+
+//// 3. How to use enum in Kotlin? Attach a sample code that use enum in Kotlin.
+
