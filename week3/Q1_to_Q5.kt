@@ -46,5 +46,5 @@ because we need to carefully specify the relations between the elements to achie
 
 
 //// 5. Try to explain the benefits of ConstraintLayout. Why you should use it?
-ConstraintLayout is a versatile layout. We can use ConstraintLayout in a variety of situations, especially when we need to set up a complicated layout,
+ConstraintLayout is a versatile layout. We can use ConstraintLayout in a variety of situations, especially where we need to set up a complicated layout,
 because we can use `Design` in Android Studio to configure the ConstraintLayout with ease.
