@@ -36,13 +36,15 @@ fun main(){
 
 
 //// 4. What are the differences between LinearLayout and RelativeLayout? Try to explain indetails.
-LinearLayout: The elements in a LinearLayout are placed one after another in a sequence. The `android:orientation` of a LinearLayout can be `vertical` or `horizontal`.
+LinearLayout: The elements in a LinearLayout are placed one after another in a sequence.The `android:orientation` of a LinearLayout can be `vertical` or `horizontal`.
 RelativeLayout: The elements in a RelativeLayout are placed according to the relations between the elements.
-RelativeLayout may be more complicated to set up, when compared with LinearLayout, because we need to carefully specify the relations between the elements to achieve the desired layout.
+RelativeLayout may be more complicated to set up, when compared with LinearLayout, 
+because we need to carefully specify the relations between the elements to achieve the desired layout.
 
 
 
 
 
 //// 5. Try to explain the benefits of ConstraintLayout. Why you should use it?
-ConstraintLayout is a versatile layout. We can use ConstraintLayout in a variety of situations, especially when we need to set up a complicated layout. We use `Design` in Android Studio to configure the ConstraintLayout.
+ConstraintLayout is a versatile layout. We can use ConstraintLayout in a variety of situations, especially when we need to set up a complicated layout,
+because we can use `Design` in Android Studio to configure the ConstraintLayout with ease.
