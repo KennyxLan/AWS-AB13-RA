@@ -16,5 +16,5 @@ The benefits of encapsulation includes:
 
 
 
-//// 3. How to use enum in Kotlin? Attach a sample code that use enum in Kotlin.
+//// 3. How to use enum in Kotlin? Attach a sample code that uses enum in Kotlin.
 
